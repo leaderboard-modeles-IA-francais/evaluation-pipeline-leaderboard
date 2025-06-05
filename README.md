@@ -6,7 +6,7 @@ This project is dedicated to disclosing the essential tools and scripts for exec
 
 The benchmark executions are scheduled with the clearml platform which spawns clearml-agent jobs on a cluster.
 
-By default, executions run on 2 nodes with 2 H100 GPUs (no infiniband between the nodes) for a total duration of 1 hour and 30 minutes.
+By default, executions run on 2 nodes with 2 H100 GPUs (no infiniband between the nodes) for a max duration of 1 hour and 30 minutes.
 
 Depending on the constraints of the model, some tuning is required; the following cases are given as examples of such tuning:
 
